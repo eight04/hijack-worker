@@ -25,6 +25,6 @@ Compat notes
 Changelog
 ---------
 
-* 0.1.0 (?)
+* 0.1.0 (Jan 30, 2018)
 
 	- First release.
