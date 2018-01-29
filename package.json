@@ -1,6 +1,6 @@
 {
   "name": "hijack-worker",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Hijack web workers in the browser to stop coin miner",
   "keywords": [
     "userscript",
@@ -30,7 +30,12 @@
     "include": "*",
     "namespace": "eight04.blogspot.com",
     "require": "https://greasyfork.org/scripts/7212-gm-config-eight-s-version/code/GM_config%20(eight's%20version).js?version=156587",
-    "grant": ["GM_getValue", "GM_setValue", "GM_registerMenuCommand", "unsafeWindow"],
+    "grant": [
+      "GM_getValue",
+      "GM_setValue",
+      "GM_registerMenuCommand",
+      "unsafeWindow"
+    ],
     "run-at": "document-start"
   }
 }
