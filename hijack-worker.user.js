@@ -93,3 +93,7 @@ function valid(url) {
   tempBlacklist.add(url);
   return false;
 }
+
+if (document.querySelector("script") && confirm("Failed to hijack web worker before other scripts. Reload?")) {
+  location.reload();
+}
