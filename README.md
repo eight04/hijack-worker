@@ -3,6 +3,9 @@ Hijack Worker
 
 Hijack web workers in the browser to stop coin miner.
 
+Try this script on MDN's simple worker page:
+http://mdn.github.io/simple-web-worker/
+
 Features
 --------
 
