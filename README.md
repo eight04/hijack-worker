@@ -9,7 +9,7 @@ http://mdn.github.io/simple-web-worker/
 Features
 --------
 
-* Hijack browser's `Worker`, `SharedWorker` and ask the user whether to allow the worker.
+* Hijack browser's `Worker`/`SharedWorker` and ask the user whether to allow them.
 * Blacklist/whitelist to always block/allow the worker.
 
 Installation
@@ -20,7 +20,7 @@ Installation
 Compat notes
 ------------
 
-* This script had been tested on Tampermonkey only.
+* This script had only been tested on Tampermonkey. You should change "Config mode" to "Advanced" then change "Inject Mode" to "Instant" in the settings.
 
 Changelog
 ---------
