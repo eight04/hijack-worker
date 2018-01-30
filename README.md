@@ -20,7 +20,10 @@ Installation
 Compat notes
 ------------
 
-* This script had only been tested on Tampermonkey. You should change "Config mode" to "Advanced" then change "Inject Mode" to "Instant" in the settings.
+* This script needs to be executed before other scripts.
+* There is no userscript manager which can ensure that the userscript is always executed before page scripts.
+* If you are using Tampermonkey, you can change "Config mode" to "Advanced" then change "Inject Mode" to "Instant" in the settings, so the script would be executed faster.
+* See [hijac-worker-extension](https://github.com/eight04/hijack-worker-extension) for a better solution.
 
 Changelog
 ---------
