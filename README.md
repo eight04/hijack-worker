@@ -15,7 +15,7 @@ Features
 Installation
 ------------
 
-
+[Greasy Fork](https://greasyfork.org/en/scripts/38016-hijack-worker)
 
 Compat notes
 ------------
