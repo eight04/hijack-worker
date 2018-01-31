@@ -86,7 +86,11 @@ function valid(url) {
       return false;
     }
   }
-  if (confirm(`Do you want to allow web worker "${url}"?`)) {
+  const message = `Do you want to allow web worker?
+- from: ${location.href}
+- target: ${url}`;
+  console.log(message);
+  if (confirm(message)) {
     tempWhitelist.add(url);
     return true;
   }
