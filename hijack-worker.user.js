@@ -89,7 +89,7 @@ function valid(url) {
   const message = `Do you want to allow web worker?
 - from: ${location.href}
 - target: ${url}`;
-  console.log(message);
+  console.log(message); // eslint-disable-line no-console
   if (confirm(message)) {
     tempWhitelist.add(url);
     return true;
