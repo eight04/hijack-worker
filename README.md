@@ -23,10 +23,15 @@ Compat notes
 * This script needs to be executed before other scripts.
 * There is no userscript manager which can ensure that the userscript is always executed before page scripts.
 * If you are using Tampermonkey, you can change "Config mode" to "Advanced" then change "Inject Mode" to "Instant" in the settings, so the script would be executed faster.
-* See [hijac-worker-extension](https://github.com/eight04/hijack-worker-extension) for a better solution.
+* See [hijack-worker-extension](https://github.com/eight04/hijack-worker-extension) for a better solution.
 
 Changelog
 ---------
+
+* 0.2.0 (Jan 31, 2018)
+
+  - Add: location.href to confirm message.
+  - Remove: page script validation is not reliable.
 
 * 0.1.0 (Jan 30, 2018)
 
