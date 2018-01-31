@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Hijack Worker
-// @version 0.1.0
+// @version 0.2.0
 // @description Hijack web workers in the browser to stop coin miner
 // @homepageURL https://github.com/eight04/hijack-worker
 // @supportURL https://github.com/eight04/hijack-worker/issues
