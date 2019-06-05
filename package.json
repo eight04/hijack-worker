@@ -22,8 +22,8 @@
   },
   "private": true,
   "devDependencies": {
-    "eslint": "^4.16.0",
-    "userscript-meta-cli": "^0.2.0"
+    "eslint": "^5.16.0",
+    "userscript-meta-cli": "^0.4.2"
   },
   "userscript": {
     "name": "Hijack Worker",
